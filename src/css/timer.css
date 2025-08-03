@@ -1,0 +1,55 @@
+.container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Інпут і кнопка */
+#datetime-picker {
+  font-size: 20px;
+  padding: 8px 12px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.start-btn {
+  font-size: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.start-btn:disabled {
+  background-color: #e0e0e0;
+  color: #777;
+  cursor: not-allowed;
+}
+
+/* Таймер */
+.timer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Кожне поле з числом */
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Значення */
+.value {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Підпис */
+.label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+}
